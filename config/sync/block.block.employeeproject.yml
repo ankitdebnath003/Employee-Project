@@ -1,0 +1,25 @@
+uuid: e48d10d2-825d-4c64-b185-57cbc5903740
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.employee-project
+  module:
+    - system
+  theme:
+    - bartik
+id: employeeproject
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:employee-project'
+settings:
+  id: 'system_menu_block:employee-project'
+  label: 'Employee Project'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

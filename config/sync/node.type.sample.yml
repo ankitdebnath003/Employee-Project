@@ -1,0 +1,18 @@
+uuid: 8fa137b5-379c-4137-8e7f-649ed7e12ef6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Sample
+type: sample
+description: 'Sample entity referenced to article.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

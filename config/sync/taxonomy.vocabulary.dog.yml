@@ -1,0 +1,8 @@
+uuid: b227873c-71ed-4d12-9315-82614a11f661
+langcode: en
+status: true
+dependencies: {  }
+name: Animal
+vid: dog
+description: ''
+weight: 0

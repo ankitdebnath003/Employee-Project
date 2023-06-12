@@ -1,0 +1,11 @@
+uuid: f9c9e484-1602-4246-a0ca-86e97100c5b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tech_skills
+id: taxonomy_term.tech_skills
+target_entity_type_id: taxonomy_term
+target_bundle: tech_skills
+default_langcode: site_default
+language_alterable: false

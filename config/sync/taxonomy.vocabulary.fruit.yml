@@ -1,0 +1,8 @@
+uuid: 6d4a913b-5fac-4859-ac8c-0ad76beb0107
+langcode: en
+status: true
+dependencies: {  }
+name: Fruit
+vid: fruit
+description: 'This is a fruit type vocabulary.'
+weight: 0

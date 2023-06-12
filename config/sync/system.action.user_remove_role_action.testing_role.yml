@@ -1,0 +1,14 @@
+uuid: e3b2c247-f5f3-402f-b1ae-dab9d9d76fa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.testing_role
+  module:
+    - user
+id: user_remove_role_action.testing_role
+label: 'Remove the Testing Role role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: testing_role

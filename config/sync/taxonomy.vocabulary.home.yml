@@ -1,0 +1,8 @@
+uuid: 809b2c49-88db-49e4-a879-4cd7d0397bc6
+langcode: en
+status: true
+dependencies: {  }
+name: Home
+vid: home
+description: 'First Taxonomy creation'
+weight: 0

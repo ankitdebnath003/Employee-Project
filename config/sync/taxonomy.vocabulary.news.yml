@@ -1,0 +1,8 @@
+uuid: d6e4cb42-6d20-4c01-9c8e-79f1a69afd34
+langcode: en
+status: true
+dependencies: {  }
+name: News
+vid: news
+description: 'This is used to add all news category.'
+weight: 0

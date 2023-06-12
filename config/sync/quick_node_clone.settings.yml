@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: 6XRelHPjACQVOo9yRQMmbXt-ysCA2Pt6l762bxQQbdw
+exclude:
+  node:
+    employee:
+      - field_age
+      - field_name
+      - field_salary
+      - field_tech_skills
+  paragraph: {  }
+text_to_prepend_to_title: ''
+clone_status: false

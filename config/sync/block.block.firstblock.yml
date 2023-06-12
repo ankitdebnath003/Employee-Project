@@ -1,0 +1,25 @@
+uuid: 7202ea56-d76b-40ca-bec4-70d938fef8a8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7d4942a8-7b76-44fe-8721-04c9e0fb51b1'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: firstblock
+theme: olivero
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:7d4942a8-7b76-44fe-8721-04c9e0fb51b1'
+settings:
+  id: 'block_content:7d4942a8-7b76-44fe-8721-04c9e0fb51b1'
+  label: 'First Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

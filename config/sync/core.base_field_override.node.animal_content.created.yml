@@ -1,0 +1,18 @@
+uuid: 703d4d84-5949-41e4-9551-a6bd0f395085
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.animal_content
+id: node.animal_content.created
+field_name: created
+entity_type: node
+bundle: animal_content
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

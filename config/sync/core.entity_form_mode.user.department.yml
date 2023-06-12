@@ -1,0 +1,10 @@
+uuid: 69d47895-5378-4072-a93e-cff44fa62fc3
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.department
+label: Department
+targetEntityType: user
+cache: true

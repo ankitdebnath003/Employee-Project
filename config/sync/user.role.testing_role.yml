@@ -1,0 +1,12 @@
+uuid: 9bbf0cbd-0e5d-4203-937d-c982dbf0da10
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: testing_role
+label: 'Testing Role'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content'

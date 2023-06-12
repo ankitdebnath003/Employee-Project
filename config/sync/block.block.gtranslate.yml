@@ -1,0 +1,20 @@
+uuid: a2115f4b-0ae5-447f-bf68-11ed1ef2a416
+langcode: en
+status: false
+dependencies:
+  module:
+    - gtranslate
+  theme:
+    - claro
+id: gtranslate
+theme: claro
+region: header
+weight: 0
+provider: null
+plugin: gtranslate_block
+settings:
+  id: gtranslate_block
+  label: GTranslate
+  label_display: '0'
+  provider: gtranslate
+visibility: {  }

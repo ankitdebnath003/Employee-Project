@@ -1,0 +1,29 @@
+uuid: a2f3360c-535b-441b-affd-f7d5ee07dd05
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.project
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__project_block_1
+theme: bartik
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:project-block_1'
+settings:
+  id: 'views_block:project-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

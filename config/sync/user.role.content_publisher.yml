@@ -1,0 +1,15 @@
+uuid: 28364226-2a0c-4564-8875-f0c6e6bf565f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - node
+id: content_publisher
+label: 'Content Publisher'
+weight: 5
+is_admin: null
+permissions:
+  - 'create page content'
+  - 'edit any page content'

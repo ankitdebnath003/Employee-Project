@@ -1,0 +1,29 @@
+uuid: 537cda84-5779-48be-ae19-cf38589891fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_news
+  module:
+    - system
+    - views
+  theme:
+    - claro
+id: views_block__top_news_block_1
+theme: claro
+region: pre_content
+weight: 0
+provider: null
+plugin: 'views_block:top_news-block_1'
+settings:
+  id: 'views_block:top_news-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

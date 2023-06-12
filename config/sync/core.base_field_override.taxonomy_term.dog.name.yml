@@ -1,0 +1,18 @@
+uuid: 834a2c0a-ecd9-42b1-b810-24f30f4ff006
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.dog
+id: taxonomy_term.dog.name
+field_name: name
+entity_type: taxonomy_term
+bundle: dog
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

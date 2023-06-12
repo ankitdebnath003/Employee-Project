@@ -1,0 +1,19 @@
+uuid: bed726f5-2a80-4c77-8f79-b8d6dd338504
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - link
+id: comment.field_homepage
+field_name: field_homepage
+entity_type: comment
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

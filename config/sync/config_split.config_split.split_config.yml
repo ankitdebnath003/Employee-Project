@@ -1,0 +1,26 @@
+uuid: de8975b9-87b1-44f2-b5fe-35c0bbbab754
+langcode: en
+status: true
+dependencies: {  }
+id: split_config
+label: 'Split config'
+description: ''
+weight: 0
+folder: ../config/split/dev
+module:
+  admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
+  devel: 0
+  devel_generate: 0
+  devel_php: 0
+theme: {  }
+blacklist:
+  - admin_toolbar.settings
+  - admin_toolbar_search.settings
+  - admin_toolbar_tools.settings
+  - block.block.articlenodepageonlyblock
+graylist: {  }
+graylist_dependents: false
+graylist_skip_equal: false

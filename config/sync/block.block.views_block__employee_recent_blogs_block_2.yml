@@ -1,0 +1,30 @@
+uuid: ec1b83b5-3c83-4c59-8371-e86cde6c42f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.employee_recent_blogs
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__employee_recent_blogs_block_2
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:employee_recent_blogs-block_2'
+settings:
+  id: 'views_block:employee_recent_blogs-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/employee/*'

@@ -1,0 +1,18 @@
+uuid: 320ae272-424a-40a5-93d7-a5a92cc6be38
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.news
+id: taxonomy_term.news.name
+field_name: name
+entity_type: taxonomy_term
+bundle: news
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

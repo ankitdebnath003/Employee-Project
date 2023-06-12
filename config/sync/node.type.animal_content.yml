@@ -1,0 +1,17 @@
+uuid: c9885606-2a6a-4214-b61d-695050d22ee4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Animal Content'
+type: animal_content
+description: 'This is to add animal content type.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

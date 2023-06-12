@@ -1,0 +1,21 @@
+_core:
+  default_config_hash: CXhei_vpaZk-3f_Mj2cH0YmpK-ZpKHoSzVA3yZrDq0g
+definitions:
+  contact__site_page:
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:entity__user__field_ui_fields_':
+    menu_name: admin
+    parent: entity.user.admin_form
+    weight: 1
+    expanded: true
+    enabled: true
