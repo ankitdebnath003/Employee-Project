@@ -1,0 +1,19 @@
+uuid: 1da84b6a-3bc5-4a0f-ac15-2940759101b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employee
+    - taxonomy.vocabulary.tech_skills
+  module:
+    - node
+    - taxonomy
+id: hr
+label: HR
+weight: 7
+is_admin: null
+permissions:
+  - 'create employee content'
+  - 'create terms in tech_skills'
+  - 'delete terms in tech_skills'
+  - 'edit terms in tech_skills'

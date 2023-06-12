@@ -1,0 +1,8 @@
+uuid: 3bc191c5-abf0-4dde-8fd5-f5eeb0e76b35
+langcode: en
+status: true
+dependencies: {  }
+id: employee_comment
+label: 'Employee Comment'
+target_entity_type_id: node
+description: ''

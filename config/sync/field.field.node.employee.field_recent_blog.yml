@@ -1,0 +1,29 @@
+uuid: 1a7eb13c-03b0-4d76-afd6-425d0d2f84cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_recent_blog
+    - node.type.blog
+    - node.type.employee
+id: node.employee.field_recent_blog
+field_name: field_recent_blog
+entity_type: node
+bundle: employee
+label: 'Recent Blog'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      blog: blog
+    sort:
+      field: uid
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

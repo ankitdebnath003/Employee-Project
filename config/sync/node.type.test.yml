@@ -1,0 +1,18 @@
+uuid: cbac2761-aa1d-4b32-92d0-dc7df6d87e33
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Test
+type: test
+description: 'This is a test content for checking all the fields.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

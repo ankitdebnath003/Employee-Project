@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 0177c327-d051-4a62-bf5d-fad7988e1275
+name: 'Drupal Training'
+mail: ankit.debnath@innoraft.com
+slogan: 'The best place to understand Drupal concepts'
+page:
+  403: /node/6
+  404: /node/5
+  front: /node/58
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ankitdebnath696@gmail.com

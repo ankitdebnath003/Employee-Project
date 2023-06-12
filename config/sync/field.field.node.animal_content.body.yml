@@ -1,0 +1,23 @@
+uuid: d5011f60-616b-460f-bb90-04ec6541826b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.animal_content
+  module:
+    - text
+id: node.animal_content.body
+field_name: body
+entity_type: node
+bundle: animal_content
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,8 @@
+uuid: f67ead16-c0ad-4c65-bad9-577832018ffe
+langcode: en
+status: true
+dependencies: {  }
+id: menu1
+label: menu1
+description: 'First menu in drupal'
+locked: false

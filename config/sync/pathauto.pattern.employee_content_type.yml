@@ -1,0 +1,22 @@
+uuid: 735cbeff-4aac-4a0c-a425-cfb3d66cc12f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: employee_content_type
+label: 'Employee Content Type'
+type: 'canonical_entities:node'
+pattern: '/employee/[node:field_name]'
+selection_criteria:
+  110ef696-9dc7-46b6-9b35-2a022b44816b:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 110ef696-9dc7-46b6-9b35-2a022b44816b
+    context_mapping:
+      node: node
+    bundles:
+      employee: employee
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,39 @@
+display:
+  default:
+    display_title: Основной
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: Сбросить
+          exposed_sorts_label: 'Сортировать по'
+          sort_asc_label: 'По возрастанию'
+          sort_desc_label: 'По убыванию'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Элементов на страницу'
+            items_per_page_options_all_label: '- Все -'
+            offset_label: Пропустить
+      fields:
+        view_webform_submission:
+          label: Операции
+          text: представление
+  embed_administer:
+    display_options:
+      fields:
+        operations:
+          label: Операции
+  embed_manage:
+    display_options:
+      fields:
+        view_webform_submission:
+          label: Операции
+          text: представление
+        edit_webform_submission:
+          label: Операции
+  embed_review:
+    display_options:
+      fields:
+        view_webform_submission:
+          label: Операции
+          text: представление

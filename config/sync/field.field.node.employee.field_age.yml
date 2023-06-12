@@ -1,0 +1,19 @@
+uuid: 0fafedf1-1f22-4461-8cc7-c36815a3738d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_age
+    - node.type.employee
+id: node.employee.field_age
+field_name: field_age
+entity_type: node
+bundle: employee
+label: Age
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

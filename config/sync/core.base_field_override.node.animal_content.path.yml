@@ -1,0 +1,20 @@
+uuid: 9a810f31-6c68-430f-bf61-b642803265cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.animal_content
+  module:
+    - path
+id: node.animal_content.path
+field_name: path
+entity_type: node
+bundle: animal_content
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

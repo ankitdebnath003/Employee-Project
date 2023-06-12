@@ -1,0 +1,16 @@
+uuid: b3b6e3d5-903e-49fa-bed9-666e5eb0ab79
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+  module:
+    - node
+id: blogger
+label: Blogger
+weight: 6
+is_admin: null
+permissions:
+  - 'create blog content'
+  - 'delete own blog content'
+  - 'edit own blog content'

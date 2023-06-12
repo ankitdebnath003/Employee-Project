@@ -1,0 +1,25 @@
+uuid: d29e8e8a-d8c3-4719-b20c-fa01be92284c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.project-1
+  module:
+    - system
+  theme:
+    - bartik
+id: project1
+theme: bartik
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:project-1'
+settings:
+  id: 'system_menu_block:project-1'
+  label: 'Project 1'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

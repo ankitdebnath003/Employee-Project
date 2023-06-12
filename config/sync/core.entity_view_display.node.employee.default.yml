@@ -1,0 +1,101 @@
+uuid: 0d944306-e623-46ba-9c95-2ec81b2ff073
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.employee.field_age
+    - field.field.node.employee.field_employee_blog
+    - field.field.node.employee.field_employee_image
+    - field.field.node.employee.field_employee_title
+    - field.field.node.employee.field_goals
+    - field.field.node.employee.field_key_characteristics
+    - field.field.node.employee.field_organization
+    - field.field.node.employee.field_project
+    - field.field.node.employee.field_recent_blog
+    - field.field.node.employee.field_salary
+    - field.field.node.employee.field_tech_skills
+    - node.type.employee
+  module:
+    - image
+    - user
+id: node.employee.default
+targetEntityType: node
+bundle: employee
+mode: default
+content:
+  field_age:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_employee_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_employee_title:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_goals:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_key_characteristics:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_organization:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_salary:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_tech_skills:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_employee_blog: true
+  field_project: true
+  field_recent_blog: true
+  langcode: true
+  search_api_excerpt: true

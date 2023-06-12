@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM
+session:
+  parameter: language
+url:
+  source: domain
+  prefixes:
+    en: ''
+    ru: ru
+    fr: fr
+  domains:
+    en: test.com
+    ru: ru.test.com
+    fr: fr.test.com
+selected_langcode: site_default

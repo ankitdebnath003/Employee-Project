@@ -1,0 +1,18 @@
+uuid: f0fb0f91-9e8f-4c91-8c62-033cd1025675
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.dog
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.dog
+target_entity_type_id: taxonomy_term
+target_bundle: dog
+default_langcode: site_default
+language_alterable: false

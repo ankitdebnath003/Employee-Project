@@ -1,0 +1,42 @@
+label: Комментарии
+display:
+  default:
+    display_title: 'По умолчанию'
+    display_options:
+      title: Комментарии
+      fields:
+        operations:
+          label: Операции
+      pager:
+        options:
+          tags:
+            next: 'следующая ›'
+            previous: '‹ предыдущая'
+          expose:
+            items_per_page_label: 'Элементов на страницу'
+            items_per_page_options_all_label: '- Все -'
+            offset_label: Пропустить
+      exposed_form:
+        options:
+          submit_button: Фильтр
+          reset_button_label: Сбросить
+          exposed_sorts_label: 'Сортировать по'
+          sort_asc_label: 'По возрастанию'
+          sort_desc_label: 'По убыванию'
+      filters:
+        langcode:
+          expose:
+            label: Язык
+  page_published:
+    display_options:
+      menu:
+        title: Комментарии
+  page_unapproved:
+    display_options:
+      fields:
+        operations:
+          label: Операции
+      filters:
+        langcode:
+          expose:
+            label: Язык

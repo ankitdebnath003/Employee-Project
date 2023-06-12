@@ -1,0 +1,60 @@
+uuid: 7c9e9707-fade-4622-8e28-3df5a59bb260
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.employee_comment
+    - field.field.comment.employee_comment.comment_body
+    - field.field.comment.employee_comment.field_comment_name
+    - field.field.comment.employee_comment.field_e_mail
+    - field.field.comment.employee_comment.field_homepage
+  module:
+    - link
+    - text
+id: comment.employee_comment.default
+targetEntityType: comment
+bundle: employee_comment
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_comment_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_e_mail:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_homepage:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

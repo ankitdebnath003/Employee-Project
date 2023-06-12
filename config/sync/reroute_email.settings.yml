@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: gbxsfZiC2MMjzyiqbCPrKXXxlhQDa0pMNs0FSt_33ds
+enable: true
+address: ankit.debnath@innoraft.com
+roles: {  }
+allowed: ''
+description: true
+message: true
+mailkeys: ''
+mailkeys_skip: ''

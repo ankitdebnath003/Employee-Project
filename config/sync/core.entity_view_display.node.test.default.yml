@@ -1,0 +1,30 @@
+uuid: 871218e2-2ad9-4a82-baae-796014473dd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test.field_ref_content
+    - node.type.test
+  module:
+    - user
+id: node.test.default
+targetEntityType: node
+bundle: test
+mode: default
+content:
+  field_ref_content:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

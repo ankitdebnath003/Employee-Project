@@ -1,0 +1,8 @@
+uuid: ea814508-e727-430e-a871-ebdfee7eea5a
+langcode: en
+status: true
+dependencies: {  }
+id: footer-top-menu
+label: 'Footer Top Menu'
+description: ''
+locked: false

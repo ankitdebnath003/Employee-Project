@@ -1,0 +1,22 @@
+uuid: bd4623ed-db5c-4b0d-9a9b-f76531d69132
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pathauto_for_blog_content
+label: 'Pathauto for Blog Content'
+type: 'canonical_entities:node'
+pattern: '/blog/[node:title]'
+selection_criteria:
+  f33f91f1-275e-4288-9c98-c0dddfa912c5:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: f33f91f1-275e-4288-9c98-c0dddfa912c5
+    context_mapping:
+      node: node
+    bundles:
+      blog: blog
+selection_logic: and
+weight: -5
+relationships: {  }

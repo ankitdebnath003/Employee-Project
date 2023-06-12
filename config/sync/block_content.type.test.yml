@@ -1,0 +1,8 @@
+uuid: 86e9eac5-ca3f-4999-8986-30d289c7b750
+langcode: en
+status: true
+dependencies: {  }
+id: test
+label: Test
+revision: 0
+description: 'This is a testing custom block type.'
